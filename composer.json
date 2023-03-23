@@ -49,6 +49,7 @@
         ],
         "files": [
             "app/etc/NonComposerComponentRegistration.php"
+
         ],
         "psr-0": {
             "": [
