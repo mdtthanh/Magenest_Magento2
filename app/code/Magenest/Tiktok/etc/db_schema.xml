@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="magenest_tiktok" onCreate="migrateDataFromAnotherTable(magenest_titok)">
+        <column xsi:type="int" name="tiktok_id" identity="true" comment="Auto Increment"/>
+        <column xsi:type="varchar" name="name" length="1024" nullable="false" comment="Url_tiktok"/>
+        <column xsi:type="int" name="state" nullable="false" comment="Url_tiktok"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="tiktok_id"/>
+        </constraint>
+    </table>
+
+</schema>

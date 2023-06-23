@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magenest_Tiktok::Tiktok" title="Tiktoks" module="Magenest_Tiktok" sortOrder="10" resource="Magenest_Tiktok::Tiktok"/>
+
+        <add id="Magenest_Tiktok::tiktok" title="Tiktok" module="Magenest_Tiktok" sortOrder="10" action="tiktok/tiktok" resource="Magenest_Tiktok::tiktok" parent="Magenest_Tiktok::Tiktok"/>
+    </menu>
+</config>
